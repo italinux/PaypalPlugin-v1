@@ -70,12 +70,12 @@ class PaypalForm extends sfForm
 			$return =  '<form action="'.$this->host.'" method="post">'.
 	        parent::render($attributes = array()).
 	        '<input name="submit" src="'.$this->button.'" type="image" style="width: auto;"/>
-	        <img src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" border="0" alt="" width="1" height="1" />
+	        <img src="https://www.paypal.com/en_GB/i/scr/pixel.gif" border="0" alt="" width="1" height="1" />
 	       </form>';
 		}
 		else
 		{
-			return __('Erreur, impossible de payer avec paypal');
+			return __('Error, impossible to pay with PayPal');
 		}
 		return $return;	
 	}
