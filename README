@@ -9,18 +9,6 @@ The PHP Paypal's API: SOAP Interface is included.
   * Direct payment
   * Website payment standard
 
-## License
-
-The itaPaypal plugin is licensed under the MIT License.
- 
-## Installation
-
-  * Install the plugin:
-
-        [plain]
-        $ symfony plugin:install ItaPaypalPlugin
-        $ symfony cc
-
 ## Express Checkout
 
 	[php]
